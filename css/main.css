@@ -1,0 +1,114 @@
+/* adding fonts */
+@font-face {
+    font-family: Chokle;
+    src: url("../fonts/Chokle.woff") format("woff"), url("../fonts/Chokle.ttf")  format("truetype");
+}
+
+@font-face {
+  font-family: 'KingslandItalic';
+  src: url('../fonts/KingslandItalic.eot?#iefix') format('embedded-opentype'),  url('../fonts/KingslandItalic.otf')  format('opentype'),
+	     url('../fonts/KingslandItalic.woff') format('woff'), url('../fonts/KingslandItalic.ttf')  format('truetype'), url('../fonts/KingslandItalic.svg#KingslandItalic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+	background-image: url("../images/bluesprinkles.jpg");
+	background-size: 100% 200%;
+	background-repeat: repeat;
+}
+body h2 {
+	font-family: KingslandItalic;
+}
+
+/* adjusting jumbotron */
+
+.jumbotron p {
+	text-align: right;
+}
+.jumbotron h1 {
+	font-family: KingslandItalic;
+}
+#name-section {
+	background-color: rgb(255, 255, 255);
+	color: #4A5F70;
+/*	z-index: -1;*/
+}
+/*#name-section img {
+	position: absolute;
+    left: 0px;
+    top: -170px;
+    width: 45%;
+    z-index: 1;
+}*/
+
+
+/* centering navbar items */
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+.navbar .navbar-collapse {
+  text-align: center;
+}
+.navbar-nav > li {
+	padding-left:40px;
+ 	padding-right:40px;
+	color: #4A5F70;
+}
+
+#navbar-section {
+	position: sticky;
+	background-color: rgb(255,255,255);
+}
+
+.mdc-elevation--z1 {
+    -webkit-box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+    box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
+
+
+/* individual information cards */
+.info-card {
+	background-color: rgb(255,255,255);
+	color: #4A5F70;
+	border-radius: 10px 30px;
+	margin-bottom: 20px;
+	padding-top: 10px; 
+	padding-bottom: 20px;
+}
+.info-card h2 {
+	font-size: 32pt;
+}
+.info-card li {
+	font-size: 16pt;
+	font-weight: lighter;
+	color: black;
+}
+.li-icon {
+	width: 25px;
+	margin-left: 20px;
+	margin-right: 15px;
+	margin-bottom: 10px;
+}
+
+.li-button {
+	margin-left: 20px;
+	position: absolute;
+}
+
+#experience {
+	text-align: right;
+	border-radius: 30px 10px !important;
+}
+#experience h3 {
+	font-size: 20pt;
+	font-weight: lighter;
+	font-style: italic;
+}
+#experience h4 {
+	font-size: 14pt;
+}
+
+
