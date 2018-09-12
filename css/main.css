@@ -1,8 +1,4 @@
 /* adding fonts */
-@font-face {
-    font-family: Chokle;
-    src: url("../fonts/Chokle.woff") format("woff"), url("../fonts/Chokle.ttf")  format("truetype");
-}
 
 @font-face {
   font-family: 'KingslandItalic';
@@ -13,8 +9,9 @@
 }
 
 body {
-	background-image: url("../images/bluesprinkles.jpg");
-	background-size: 100% 200%;
+	background-image: url("../images/darkpurple.png");
+	background-color: #141125;
+	background-size: 100% 100%;
 	background-repeat: repeat;
 }
 body h2 {
@@ -22,6 +19,10 @@ body h2 {
 }
 
 /* adjusting jumbotron */
+
+.jumbotron {
+	height: 200px;
+}
 
 .jumbotron p {
 	text-align: right;
@@ -31,16 +32,8 @@ body h2 {
 }
 #name-section {
 	background-color: rgb(255, 255, 255);
-	color: #4A5F70;
-/*	z-index: -1;*/
+	color: #2a2644;
 }
-/*#name-section img {
-	position: absolute;
-    left: 0px;
-    top: -170px;
-    width: 45%;
-    z-index: 1;
-}*/
 
 
 /* centering navbar items */
@@ -55,7 +48,7 @@ body h2 {
 .navbar-nav > li {
 	padding-left:40px;
  	padding-right:40px;
-	color: #4A5F70;
+	color: #2a2644;
 }
 
 #navbar-section {
@@ -72,7 +65,7 @@ body h2 {
 /* individual information cards */
 .info-card {
 	background-color: rgb(255,255,255);
-	color: #4A5F70;
+	color: #2a2644;
 	border-radius: 10px 30px;
 	margin-bottom: 20px;
 	padding-top: 10px; 
@@ -95,6 +88,7 @@ body h2 {
 
 .li-button {
 	margin-left: 20px;
+	margin-bottom: 20px;
 	position: absolute;
 }
 
@@ -109,6 +103,10 @@ body h2 {
 }
 #experience h4 {
 	font-size: 14pt;
+}
+
+footer {
+	color: rgba(255,255,255,0.4);
 }
 
 
